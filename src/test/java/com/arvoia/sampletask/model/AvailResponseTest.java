@@ -30,7 +30,7 @@ public class AvailResponseTest {
   @Test
   public void testGetResult() throws Exception {
     // given
-    String value = "result";
+    String value = "success";
     underTest.setResult(value);
     // when
     String actual = underTest.getResult();
